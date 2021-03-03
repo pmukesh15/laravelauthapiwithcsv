@@ -1,3 +1,10 @@
-1)go to project's directory and "composer update"
-2)configure .env variable with db credentials
-3)please run "php artisan migrate".
+go to project's directory and "composer update".
+
+
+configure .env variable with db credentials.
+
+
+please run "php artisan migrate".
+
+
+sample csv for testing is attached in import page.
