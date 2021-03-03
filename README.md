@@ -1,6 +1,6 @@
 Please note:
 
-i Ihave not used any plugins like passport, jetstream used (Guzzle client for calling apis).go to the project's directory and "composer update".
+I have not used any plugins like passport, jetstream used (Guzzle client for calling apis).go to the project's directory and "composer update".
 
 
 configure .env variable with db credentials.
