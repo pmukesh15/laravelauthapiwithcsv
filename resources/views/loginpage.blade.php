@@ -12,7 +12,7 @@
                  
                 <div class="card-body">
                     <form method="POST" action="{{ route('loginaction') }}" aria-label="{{ __('Login') }}">
-                        @csrf
+                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                         <div class="form-group row">
                             <label for="email" class="col-sm-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
