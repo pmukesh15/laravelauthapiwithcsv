@@ -113,7 +113,7 @@
                                     </a>
 
                                     <form id="logout-form" action="logout" method="POST" style="display: none;">
-                                        @csrf
+                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                     </form>
                                 </div>
                             </li>
